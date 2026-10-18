@@ -4,7 +4,7 @@ import React, { useTransition } from 'react';
 import { useRouter } from 'next/navigation';
 import { useQueryClient } from '@tanstack/react-query';
 import { useNoteStore } from '@/lib/store/noteStore';
-import { createNote } from '@/lib/api/notes';
+import { createNote } from '@/lib/api';
 import css from './NoteForm.module.css';
 
 export default function NoteForm() {
