@@ -35,8 +35,6 @@ export default function NotesClient({ initialTag }: NotesClientProps) {
     placeholderData: (previousData) => previousData,
   });
 
-console.log("DATA FROM REACT QUERY:", data);
-
   return (
     <main className={css.app}>
       <div className={css.toolbar}>
